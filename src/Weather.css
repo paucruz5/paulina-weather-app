@@ -1,48 +1,101 @@
 .Weather {
-    font-family: arial, sans-serif;
-    border: 1px solid #dadde1;
-    padding: 16px;
-    border-radius: 4px;
+    width: clamp(280px, 90vw, 560px);
+    border: 3px solid #000000;
+    padding: 20px;
+    border-radius: 10px;
     color: rgb(0, 0, 0);
-    margin-top: 100px;
-    background-color: rgb(186, 115, 252);
+    margin-top: 10px;
+    background-color: rgba(142, 94, 204, 0.7);
+}
+
+.search-bar {
+    width: 100%;
+    box-sizing: border-box;
+    height: 40px;
+    padding: 8px 12px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+}
+
+.Weather .btn-primary {
+    height: 40px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid #000000;
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #1f1130;
+    font-weight: 600;
+}
+
+.Weather .btn-primary:hover {
+    background-color: rgba(147, 7, 241, 0.2);
+    color: #ffffff;
+}
+
+.weather-description {
+    text-align: center;
+    font-size: clamp(10px, 3vw, 20px);
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.WeatherInfo .row {
+    align-items: center;
 }
 
 .Weather h1 {
-    font-size: 24px;
-    font-weight: 100;
-    margin: 20px 0 0 0;
-    line-height: 29px;
+    font-size: clamp(14px, 3.5vw, 20px);
+    font-weight: bold;
+    text-align: center;
 }
 
-.Weather ul {
-    margin: 0;
-    padding: 0;
-}
-
-.Weather li {
-    font-size: 16px;
-    font-weight: 100;
-    line-height: 19px;
-    list-style: none;
-}
-
-.Weather .icon {
-    width: 80px;
-    height: 80px;
+.WeatherTemperature {
+    display: inline-flex;
+    white-space: nowrap;
+    align-items: flex-start;
 }
 
 .Weather .temperature {
-    font-weight: bold;
+    font-weight: 500;
     color: rgb(33, 33, 33);
-    font-size: 64px;
-    font-weight: 400;
+    font-size: 45px;
+    line-height: 1;
 }
 
 .Weather .unit {
     color: rgb(33, 33, 33);
-    font-size: 16px;
-    font-weight: 400;
-    position: relative;
-    top: -34px;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 1;
+    margin-top: 4px;
+}
+
+.Weather .unit a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.Weather .icon svg {
+    width: clamp(50px, 8vw, 70px);
+    height: clamp(50px, 8vw, 70px);
+}
+
+.Weather ul {
+    text-align: center;
+}
+
+.Weather li {
+    font-size: clamp(12px, 2.5vw, 18px);
+    line-height: 1.4;
+    list-style: none;
+    font-weight: 500;
+}
+
+.Date {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
 }

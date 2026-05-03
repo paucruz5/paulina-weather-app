@@ -1,16 +1,39 @@
 .App {
-    max-width: 700px;
-    margin: 0 auto;
+    max-width: 600px;
+    margin: 0 30px;
 }
 
 body {
     background-image: url(../img/purple-sky.png);
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    color: white;
+    font-size: clamp(12px, 3vw, 17px);
+    margin-top: 10px;
+    font-weight: 600;
+    text-align: center;
+}
+
+header a {
+    color: black;
+    font-weight: 800;
+    text-decoration: none;
 }
 
 footer {
+    color: white;
+    font-size: clamp(12px, 3vw, 17px);
+    margin-top: 10px;
+    font-weight: 600;
     text-align: center;
-    margin-top: 15px;
-    ;
+}
+
+footer a {
+    color: black;
+    font-weight: 800;
+    text-decoration: none;
 }
