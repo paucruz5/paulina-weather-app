@@ -34,7 +34,7 @@
 
 .weather-description {
     text-align: center;
-    font-size: clamp(10px, 3vw, 20px);
+    font-size: clamp(10px, 3vw, 18px);
     font-weight: bold;
     margin-top: 15px;
     margin-bottom: 10px;
