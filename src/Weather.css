@@ -19,12 +19,13 @@
 
 .Weather .btn-primary {
     height: 40px;
-    padding: 8px 12px;
+    box-sizing: border-box;
     border-radius: 8px;
     border: 1px solid #000000;
     background-color: rgba(255, 255, 255, 0.05);
     color: #1f1130;
     font-weight: 600;
+    font-size: clamp(0.6rem, 2.2vw, 1.2rem);
 }
 
 .Weather .btn-primary:hover {
@@ -87,10 +88,20 @@
 }
 
 .Weather li {
-    font-size: clamp(12px, 2.5vw, 18px);
+    font-size: 18px;
     line-height: 1.4;
     list-style: none;
     font-weight: 500;
+}
+
+@media (max-width: 576px) {
+    .Weather {
+        margin: 0 auto;
+    }
+
+    .Weather li {
+        display: none;
+    }
 }
 
 .Date {

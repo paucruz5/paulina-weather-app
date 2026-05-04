@@ -6,3 +6,8 @@
     width: clamp(30px, 8vw, 60px);
     height: clamp(30px, 8vw, 60px);
 }
+
+.WeatherForecast-temperature-min,
+.WeatherForecast-temperature-max {
+    font-size: clamp(0.55rem, 2.2vw, 1.2rem);
+}
