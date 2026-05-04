@@ -52,6 +52,7 @@ export default function Weather(props) {
                 autoComplete="on"
                 onChange={handleCityChange}
                 value={city}
+                id="city-input"
               />
             </div>
             <div className="col-3">
