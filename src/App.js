@@ -9,7 +9,7 @@ export default function App() {
         <header>
           This project was coded by
           <a
-            href="https://paucruz-portfolio.netlify.app/"
+            href="https://paucruz.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -21,7 +21,7 @@ export default function App() {
         <footer>
           It's open-sourced on{" "}
           <a
-            href="https://github.com/paucruz5/Weather-app"
+            href="https://github.com/paucruz5/paulina-weather-app"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -29,7 +29,7 @@ export default function App() {
           </a>{" "}
           and hosted on{" "}
           <a
-            href="https://paulina-weather-app.netlify.app"
+            href="https://purple-weatherapp.paucruz.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
