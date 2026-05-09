@@ -27,14 +27,7 @@ export default function App() {
           >
             Github
           </a>{" "}
-          and hosted on{" "}
-          <a
-            href="https://purple-weatherapp.paucruz.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Netlify
-          </a>
+          and hosted on Netlify
         </footer>
       </div>
     </div>
