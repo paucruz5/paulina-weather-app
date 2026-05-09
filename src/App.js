@@ -7,7 +7,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header>
-          This project was coded by
+          Coded by
           <a
             href="https://paucruz.com/"
             target="_blank"
@@ -19,7 +19,7 @@ export default function App() {
         </header>
         <Weather defaultCity="Tizimin" />
         <footer>
-          It's open-sourced on{" "}
+          Open-sourced on{" "}
           <a
             href="https://github.com/paucruz5/paulina-weather-app"
             target="_blank"
@@ -27,7 +27,7 @@ export default function App() {
           >
             Github
           </a>{" "}
-          and hosted on Netlify
+          ; hosted on Netlify
         </footer>
       </div>
     </div>
