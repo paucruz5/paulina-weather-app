@@ -21,7 +21,7 @@ export default function App() {
         <footer>
           Open-sourced on{" "}
           <a
-            href="https://github.com/paucruz5/paulina-weather-app"
+            href="https://github.com/paucruz5/purple-weather-app"
             target="_blank"
             rel="noopener noreferrer"
           >
